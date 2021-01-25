@@ -36,7 +36,7 @@ print_blank_lines(1)
 # Classic bubble sort example
 # Old school...
 def bubble_sort(a):
-    for _ in range(len(a)):
+    for _ in range(len(a)):         # example where '_' is used as a throw-away: https://www.geeksforgeeks.org/underscore-_-python/
         for i in range(1, len(a)):
             if a[i] < a[i-1]:
                 temp = a[i]
